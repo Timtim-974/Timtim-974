@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenue sur mon site web</h1>
+    <p>Ceci est une page web simple avec HTML, CSS et JavaScript.</p>
+    <button onclick="afficherMessage()">Cliquez-moi</button>
+    
+    <script>
+        function afficherMessage() {
+            alert('Bonjour et bienvenue sur mon site !');
+        }
+    </script>
+</body>
+</html>
