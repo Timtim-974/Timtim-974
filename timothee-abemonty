@@ -76,6 +76,11 @@
             line-height: 1.8;
             text-align: justify;
         }
+        h2 {
+            color: #444;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
         .cv-container {
             width: 100vw;
             height: 100vh;
@@ -118,22 +123,30 @@
             </div>
             <div class="section">
                 <p>Depuis mon plus jeune âge, j’ai été fasciné par les technologies numériques et leur impact sur notre quotidien.</p>
+                <p>Je me spécialise dans le développement web et l'expérience utilisateur.</p>
+                <p>Mon objectif est de créer des solutions modernes et efficaces.</p>
             </div>
         </div>
         
         <div id="about" class="content">
             <h1>À propos de moi</h1>
             <div class="section">
-                <p>Je suis un expert en [votre domaine d'expertise] avec plusieurs années d'expérience.</p>
-                <img src="about1.jpg" alt="Image sur moi">
+                <h2>Expérience</h2>
+                <p>J’ai travaillé dans plusieurs entreprises où j’ai acquis des compétences solides en développement web.</p>
+                <p>Mon parcours m’a permis de travailler sur des projets innovants et ambitieux.</p>
+                <img src="about1.jpg" alt="Expérience professionnelle">
             </div>
             <div class="section">
-                <p>J’ai travaillé sur divers projets qui m’ont permis de développer des compétences avancées.</p>
-                <img src="about2.jpg" alt="Travail en cours">
+                <h2>Compétences</h2>
+                <p>Je maîtrise plusieurs langages de programmation tels que HTML, CSS, JavaScript et Python.</p>
+                <p>J’ai également une expertise en UI/UX design, garantissant des interfaces attrayantes et fonctionnelles.</p>
+                <img src="about2.jpg" alt="Compétences techniques">
             </div>
             <div class="section">
-                <p>Je crois en l’importance de l’innovation et de l’amélioration continue pour atteindre l’excellence.</p>
-                <img src="about3.jpg" alt="Technologies">
+                <h2>Passions</h2>
+                <p>En dehors du travail, je suis passionné par la veille technologique et le design graphique.</p>
+                <p>J’aime apprendre de nouvelles technologies et explorer les tendances du digital.</p>
+                <img src="abemonty_timothee.pdf" alt="Passions">
             </div>
         </div>
         
@@ -162,9 +175,6 @@
             document.getElementById('cv-container').classList.remove('active');
         }
         function showCV() {
-            document.querySelectorAll('.content').forEach(section => {
-                section.classList.remove('active');
-            });
             document.getElementById('cv-container').classList.add('active');
         }
         function closeCV() {
