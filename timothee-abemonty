@@ -153,7 +153,7 @@ Résolution de problèmes et le travail en équipe.</p>
         <div id="contact" class="content">
             <h1>Contactez-moi</h1>
             <div class="section">
-Voici, un site que j'ai crée pour en savoir beaucoup plus sur moi en profondeur. 
+Vous pouvez me contacter à l'adresse mail: t.abemonty@rt-iut.re 
         </div>
 
     </div>
@@ -162,6 +162,15 @@ Voici, un site que j'ai crée pour en savoir beaucoup plus sur moi en profondeur
         <iframe src="Mon_cv.pdf"></iframe>
         <button onclick="closeCV()" style="position:absolute; top:20px; right:20px; padding:10px 20px; background:#333; color:white; border:none; font-size:16px; cursor:pointer;">Fermer</button>
     </div>
+
+  <div id="Autres" class="content">
+            <h1>Voici, un site que j'ai crée pour en savoir beaucoup plus sur moi en profondeur. </h1>
+            <div class="section">
+Voici, un site que j'ai crée pour en savoir beaucoup plus sur moi en profondeur. 
+        </div>
+<footer>
+    <p>copy; 2025 ABEMONTY Timothee, Tous droits réservés.</p>
+</footer>
     
     <script>
         function showSection(sectionId) {
