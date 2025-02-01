@@ -111,6 +111,7 @@
             <a href="#" onclick="showSection('about')">À propos</a>
             <a href="#" onclick="showCV()">CV</a>
             <a href="#" onclick="showSection('contact')">Contact</a>
+            <a href="https://essainpq.my.canva.site/findesae104" onclick="showSection()">Autres</a>
         </nav>
     </header>
     
@@ -118,13 +119,12 @@
         <div id="home" class="content active">
             <h1>Bienvenue sur mon site</h1>
             <div class="section">
-                <p>Je suis [Votre Nom], un passionné du web et de la technologie.</p>
-                <p>Ce site est une vitrine de mes compétences et de mes réalisations.</p>
+                <p>Je suis ABEMONTY Timothée, un passionné du web et de la technologie.</p>
+                <p>Ce site parle principalement de moi.</p>
             </div>
             <div class="section">
-                <p>Depuis mon plus jeune âge, j’ai été fasciné par les technologies numériques et leur impact sur notre quotidien.</p>
+                <p>Depuis mon plus jeune âge, j’ai toujours été particulièrement fasciné par les technologies numériques et par leur impact considérable sur notre quotidien. Elles transforment en profondeur la façon dont nous vivons, communiquons et travaillons, et leur évolution rapide change constamment nos habitudes et notre manière de percevoir le monde autour de nous.</p>
                 <p>Je me spécialise dans le développement web et l'expérience utilisateur.</p>
-                <p>Mon objectif est de créer des solutions modernes et efficaces.</p>
             </div>
         </div>
         
