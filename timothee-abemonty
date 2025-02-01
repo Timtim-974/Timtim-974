@@ -35,12 +35,12 @@
             font-weight: bold;
         }
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 50px auto;
-            padding: 40px;
+            padding: 60px;
             background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
         }
         .content {
             display: none;
@@ -50,19 +50,25 @@
         }
         h1 {
             color: #444;
-            font-size: 32px;
+            font-size: 36px;
         }
         .section {
             background-color: #f8f8f8;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 15px;
         }
         p {
-            font-size: 18px;
+            font-size: 20px;
             line-height: 1.8;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
     </style>
 </head>
@@ -93,26 +99,21 @@
             <h1>À propos de moi</h1>
             <div class="section">
                 <p>Je suis un expert en [votre domaine d'expertise] avec plusieurs années d'expérience.</p>
+                <img src="about1.jpg" alt="Image sur moi">
             </div>
             <div class="section">
                 <p>J’ai travaillé sur divers projets qui m’ont permis de développer des compétences avancées.</p>
+                <img src="about2.jpg" alt="Travail en cours">
             </div>
             <div class="section">
                 <p>Je crois en l’importance de l’innovation et de l’amélioration continue pour atteindre l’excellence.</p>
+                <img src="about3.jpg" alt="Technologies">
             </div>
         </div>
         
         <div id="cv" class="content">
             <h1>Mon CV</h1>
-            <div class="section">
-                <p>Expérience professionnelle :</p>
-                <p>• [Poste] chez [Entreprise] - [Année]</p>
-                <p>• [Poste] chez [Entreprise] - [Année]</p>
-            </div>
-            <div class="section">
-                <p>Formation :</p>
-                <p>• [Diplôme] à [Université] - [Année]</p>
-            </div>
+            <iframe src="mon_cv.pdf" width="100%" height="600px"></iframe>
         </div>
         
         <div id="contact" class="content">
