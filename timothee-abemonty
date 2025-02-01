@@ -9,28 +9,38 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #e0e0e0;
             color: #333;
         }
-        nav {
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             background-color: #444;
-            padding: 15px;
-            text-align: center;
+            padding: 20px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
         }
         nav a {
             color: white;
-            margin: 0 20px;
             text-decoration: none;
             font-size: 18px;
             font-weight: bold;
         }
         .container {
-            max-width: 800px;
+            max-width: 1200px;
             margin: 50px auto;
-            padding: 20px;
+            padding: 40px;
             background-color: white;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
         .content {
             display: none;
@@ -40,35 +50,46 @@
         }
         h1 {
             color: #444;
+            font-size: 32px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <nav>
-        <a href="#" onclick="showSection('home')">Accueil</a>
-        <a href="#" onclick="showSection('about')">À propos</a>
-        <a href="#" onclick="showSection('contact')">Contact</a>
-    </nav>
+    <header>
+        <div class="logo">Mon Logo</div>
+        <nav>
+            <a href="#" onclick="showSection('home')">Accueil</a>
+            <a href="#" onclick="showSection('about')">À propos</a>
+            <a href="#" onclick="showSection('contact')">Contact</a>
+        </nav>
+    </header>
     
     <div class="container">
         <div id="home" class="content active">
             <h1>Bienvenue sur mon site</h1>
             <p>Je suis [Votre Nom], un passionné du web et de la technologie. Ce site vous permettra d’en apprendre plus sur moi.</p>
-            <p>J’aime explorer les nouvelles technologies et partager mes connaissances.</p>
+            <p>Depuis mon plus jeune âge, j’ai été fasciné par les technologies numériques et leur impact sur notre quotidien.</p>
+            <p>Ce site est une vitrine de mes compétences et de mes réalisations. J’espère que vous trouverez ici des informations intéressantes.</p>
         </div>
         
         <div id="about" class="content">
             <h1>À propos de moi</h1>
-            <p>Je suis spécialisé en [votre domaine d'expertise]. Avec plusieurs années d’expérience, j’ai acquis des compétences solides.</p>
-            <p>Mon objectif est d’aider les autres à comprendre et utiliser la technologie de manière efficace.</p>
-            <p>Dans mon temps libre, j’aime lire, voyager et découvrir de nouvelles cultures.</p>
+            <p>Je suis un expert en [votre domaine d'expertise] avec plusieurs années d'expérience.</p>
+            <p>J’ai travaillé sur divers projets qui m’ont permis de développer des compétences avancées dans mon domaine.</p>
+            <p>Au-delà du travail, j’aime explorer de nouvelles technologies, partager mes connaissances et apprendre continuellement.</p>
+            <p>Je crois en l’importance de l’innovation et de l’amélioration continue pour atteindre l’excellence.</p>
         </div>
         
         <div id="contact" class="content">
             <h1>Contactez-moi</h1>
             <p>Vous pouvez me contacter à l'adresse email : [votre email]</p>
-            <p>N’hésitez pas à m’écrire pour toute question ou collaboration.</p>
-            <p>Je suis également disponible sur les réseaux sociaux.</p>
+            <p>N’hésitez pas à m’écrire pour toute question, collaboration ou simplement pour échanger des idées.</p>
+            <p>Je suis également actif sur les réseaux sociaux où je partage régulièrement mes réflexions et découvertes.</p>
         </div>
     </div>
     
