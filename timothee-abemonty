@@ -146,18 +146,14 @@
                 <h2>Passions</h2>
                 <p>En dehors du travail, je suis passionné par la veille technologique et le design graphique.</p>
                 <p>J’aime apprendre de nouvelles technologies et explorer les tendances du digital.</p>
-                <img src="Images/abemonty_timothee.pdf" alt="Passions">
+                <img src="Ce Pc/Images/abemonty_timothee.pdf" alt="Passions">
             </div>
         </div>
         
         <div id="contact" class="content">
             <h1>Contactez-moi</h1>
             <div class="section">
-                <p>Vous pouvez me contacter à l'adresse email : [votre email]</p>
-            </div>
-            <div class="section">
-                <p>N’hésitez pas à m’écrire pour toute question ou collaboration.</p>
-            </div>
+              <img src="Ce Pc/Images/abemonty_timothee.pdf" alt="Passions">
         </div>
     </div>
     
