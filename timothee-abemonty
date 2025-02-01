@@ -70,6 +70,11 @@
             line-height: 1.8;
             margin-bottom: 15px;
         }
+        .cv-container iframe {
+            width: 100%;
+            height: 90vh;
+            border: none;
+        }
     </style>
 </head>
 <body>
@@ -113,12 +118,14 @@
         
         <div id="cv" class="content">
             <h1>Mon CV</h1>
-            <iframe src="Mon_cv.pdf" width="100%" height="600px"></iframe>
+            <div class="cv-container">
+                <iframe src="Mon_cv.pdf"></iframe>
+            </div>
         </div>
         
         <div id="contact" class="content">
             <h1>Contactez-moi</h1>
-               <img src="Contact.jng" alt="Technologies">
+         <img src="" >
         </div>
     </div>
     
